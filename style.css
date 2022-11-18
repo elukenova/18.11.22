@@ -1,8 +1,23 @@
 *{
   box-sizing: border-box;
 }
-h1{
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-size: 25px;
-  color: blue;
+header{
+  background-color: rgb(116, 40, 40);
+ 
+}
+nav{
+  background-color: rgb(250,169,154);
+  flex-basis: 25%;
+}
+main{
+  background-color: tomato;
+  flex-basis: 50%;
+}
+
+aside{
+  background-color: pink;
+  flex-basis: 25%;
+}
+footer{
+  background-color: rgb( 201,34,5);
 }
